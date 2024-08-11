@@ -1,0 +1,12 @@
+{
+  "name": "Scala",
+  "image": "mcr.microsoft.com/vscode/devcontainers/scala:latest",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "scala-lang.scala",
+    "scalameta.metals"
+  ],
+  "postCreateCommand": "sbt update"
+}
